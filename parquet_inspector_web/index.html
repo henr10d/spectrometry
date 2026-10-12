@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MassSpec · Parquet Inspector</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div><span class="eyebrow">MASS SPEC DATASET</span><h1>Parquet Inspector</h1></div>
+    <div id="status" class="status">Připojuji…</div>
+  </header>
+  <main>
+    <section class="metrics" id="metrics"></section>
+    <section class="controls panel">
+      <label>Hledat <input id="search" placeholder="SMILES, InChIKey, adduct…"></label>
+      <label>Ve sloupci <select id="field"><option value="">ve všech</option></select></label>
+      <button id="run">Použít filtr</button><button class="ghost" id="clear">Vymazat</button>
+    </section>
+    <section class="panel table-panel">
+      <div class="section-title"><div><span class="eyebrow">DATA</span><h2>Záznamy</h2></div><div class="pager"><button id="prev">←</button><span id="page">Strana 1</span><button id="next">→</button></div></div>
+      <div id="loader" class="loader hidden"></div>
+      <div class="table-wrap"><table><thead id="thead"></thead><tbody id="tbody"></tbody></table></div>
+    </section>
+  </main>
+  <dialog id="detail"><button class="close" aria-label="Zavřít">×</button><div id="detailBody"></div></dialog>
+  <script src="/app.js"></script>
+</body>
+</html>

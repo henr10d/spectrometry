@@ -1,0 +1,7 @@
+{
+  "seconds": 2.0471315383911133,
+  "training_structures": 40000,
+  "seed": 2026,
+  "alpha": 20,
+  "features": "2 Da fragment/loss bins plus precursor, mode, intercept"
+}

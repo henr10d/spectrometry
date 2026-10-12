@@ -1,0 +1,14 @@
+{
+  "train.parquet": {
+    "bytes": 3033286496,
+    "sha256": "9423f90ec08b941a9646b535bf0606183e86ff0c5a297978f5a70693d41bcd98"
+  },
+  "test.parquet": {
+    "bytes": 4848729,
+    "sha256": "2fa29c4aa06e93b48e0cd6619fd2de3f4e956f0019d242141678b7287f2b43e0"
+  },
+  "sample_submission.csv": {
+    "bytes": 43619,
+    "sha256": "34c45718efeb03b9d130c7f1ed5a1a72f92c8818479a49d5feef08b5a9f18e04"
+  }
+}

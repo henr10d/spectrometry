@@ -1,0 +1,46 @@
+{
+  "protocols": {
+    "all_visible": {
+      "MRR25": 0.9959349593495935,
+      "R1": 0.9959349593495935,
+      "R5": 0.9959349593495935,
+      "R10": 0.9959349593495935,
+      "R25": 0.9959349593495935,
+      "candidate_oracle_recall": 0.9959349593495935,
+      "conditional_mrr": 1.0,
+      "median_candidates": 62.0
+    },
+    "no_own_spectra": {
+      "MRR25": 0.180379403585556,
+      "R1": 0.056910569105691054,
+      "R5": 0.3130081300813008,
+      "R10": 0.508130081300813,
+      "R25": 0.7235772357723578,
+      "candidate_oracle_recall": 0.9959349593495935,
+      "conditional_mrr": 0.1811156460491705,
+      "median_candidates": 62.0
+    },
+    "outside_candidate_pool": {
+      "MRR25": 0.0,
+      "R1": 0.0,
+      "R5": 0.0,
+      "R10": 0.0,
+      "R25": 0.0,
+      "candidate_oracle_recall": 0.0,
+      "conditional_mrr": 0.0,
+      "median_candidates": 61.0
+    }
+  },
+  "method": "ensemble",
+  "n_queries": 246,
+  "seconds": 124.66689372062683,
+  "config": "configs/ensemble.json",
+  "candidates_file": "candidates_extended.parquet",
+  "training": {
+    "excluded_structures": 250,
+    "training_structures": 40000,
+    "seconds": 3.5658695697784424,
+    "refit_without_np_domain": true
+  },
+  "limitation": "Closed candidate universe: held-out structures remain searchable; hidden-test coverage is unknown."
+}

@@ -1,0 +1,39 @@
+{
+  "protocols": {
+    "all_visible": {
+      "MRR25": 0.9959349593495935,
+      "R1": 0.9959349593495935,
+      "R5": 0.9959349593495935,
+      "R10": 0.9959349593495935,
+      "R25": 0.9959349593495935,
+      "candidate_oracle_recall": 0.9959349593495935,
+      "conditional_mrr": 1.0,
+      "median_candidates": 62.0
+    },
+    "no_own_spectra": {
+      "MRR25": 0.18323800840403542,
+      "R1": 0.06097560975609756,
+      "R5": 0.3170731707317073,
+      "R10": 0.5203252032520326,
+      "R25": 0.7235772357723578,
+      "candidate_oracle_recall": 0.9959349593495935,
+      "conditional_mrr": 0.18398591864241923,
+      "median_candidates": 62.0
+    },
+    "outside_candidate_pool": {
+      "MRR25": 0.0,
+      "R1": 0.0,
+      "R5": 0.0,
+      "R10": 0.0,
+      "R25": 0.0,
+      "candidate_oracle_recall": 0.0,
+      "conditional_mrr": 0.0,
+      "median_candidates": 61.0
+    }
+  },
+  "method": "ensemble",
+  "n_queries": 246,
+  "seconds": 10.964202880859375,
+  "config": "configs/ensemble.json",
+  "candidates_file": "candidates_extended.parquet"
+}

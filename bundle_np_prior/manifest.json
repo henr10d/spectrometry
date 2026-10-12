@@ -1,0 +1,126 @@
+{
+  "artifacts/candidates_np_prior.parquet": {
+    "bytes": 127391094,
+    "sha256": "0d87638ddb0f6125f040fde63becd98338ff3c0c961556f3ecded30503bb585f"
+  },
+  "artifacts/fingerprint_ridge.npz": {
+    "bytes": 4420997,
+    "sha256": "e8b94f59556cbb45609a0d4a49072880a9d6e5a1cbc34e14db39904e0e95b2dd"
+  },
+  "artifacts/library_peaks.npy": {
+    "bytes": 1300279424,
+    "sha256": "9267512b8aa78bed3eee8162d4e5cd028fe37ca6dd1bd7b26db042562f69cf3f"
+  },
+  "artifacts/structure_map.parquet": {
+    "bytes": 39317292,
+    "sha256": "ea7d4d4d4b32236c94f64dc74fb6f73ce4a4589cd0b2458b3f5c90fb7f0bc9ca"
+  },
+  "artifacts/train_metadata.parquet": {
+    "bytes": 66864420,
+    "sha256": "97f5b616812c05a924711b1b11b29cb04f722c7bda6d10b7ad97fbbc425c99d0"
+  },
+  "configs/baseline.json": {
+    "bytes": 191,
+    "sha256": "f5ff917f612032b0431dd620b8dc891647a0ac462c4da04bb13ee146d876c0c4"
+  },
+  "configs/cosine.json": {
+    "bytes": 130,
+    "sha256": "4f0c2426753547c336aa042daf1da417fd1e6ba25e3b9d698bca74a268790189"
+  },
+  "configs/ensemble.json": {
+    "bytes": 384,
+    "sha256": "760ed77a938bc70a66ca64306a70dea5b1d6bd1ca880763d535e1c614eaa6204"
+  },
+  "configs/fingerprint.json": {
+    "bytes": 187,
+    "sha256": "f84c47b05c86aa2ae859bdfdf8a222a02ef7921206c7984eb4c5b29a94cd8acd"
+  },
+  "configs/np_prior.json": {
+    "bytes": 237,
+    "sha256": "548910d42882342cf4eb6177de4af64b74dee307c729ec703478e47478bc237e"
+  },
+  "provenance/candidate_build.json": {
+    "bytes": 130,
+    "sha256": "fcd436210f81ad7f05819cdede6260f36cacf8a1cd5a181400cea7cccd939d92"
+  },
+  "provenance/candidate_merge.json": {
+    "bytes": 252,
+    "sha256": "99e269ff4817bbfaa20a3f1e18e8b6582d4fd49f61460a0662e91470d915da8a"
+  },
+  "provenance/coconut_prior.json": {
+    "bytes": 512,
+    "sha256": "cb8955d27f3baa53dbd11b39e226411fb191884f27d94aaf4b2b5403dbf000f2"
+  },
+  "provenance/environment.json": {
+    "bytes": 328,
+    "sha256": "0fc21bac9bf565741cbb5eee1be60cea98f3b574c7f93e25d7af6ad81a8f4e81"
+  },
+  "provenance/library_build.json": {
+    "bytes": 118,
+    "sha256": "ee6b3140e97dd708a044aafcfeb59bcf3d3fc984b666681f29c4d1cd34b263ed"
+  },
+  "provenance/np_holdout_clean_canonical.json": {
+    "bytes": 8221,
+    "sha256": "cf02ef9c6db64e08a7d2fc100ca6daa0d097c7c3e614406cb61dea9f9ce0e365"
+  },
+  "provenance/np_holdout_proxy.json": {
+    "bytes": 1055,
+    "sha256": "eabb91cfd6c1e438baa11e56e3e63b3c7d72d59be3131b2c2a0822cd2b1376fe"
+  },
+  "provenance/np_prior_validation.json": {
+    "bytes": 23227,
+    "sha256": "7c9c75886c0989225290cdd15d5d50ed9e678d69d0c990c5bf2bc5bdb3083387"
+  },
+  "provenance/score_improvement.md": {
+    "bytes": 5713,
+    "sha256": "796675fb5a97d6e86365e460867ecce0838dc4ac37ec8b2fca7b550bd250d781"
+  },
+  "requirements.txt": {
+    "bytes": 107,
+    "sha256": "147ab1ac887ca634be46e4ccd6c7c68aed6bf85363d279d7291385c4896b38fa"
+  },
+  "src/__init__.py": {
+    "bytes": 40,
+    "sha256": "f02e723445ebab6d98b9c85136b22564871798fd87f52c75575cf720f7303168"
+  },
+  "src/candidates.py": {
+    "bytes": 2289,
+    "sha256": "a72d79e4562d344d9c68b3ea3467ecb9e13e32ef5d419ce0af06fb15130bcb49"
+  },
+  "src/chemistry.py": {
+    "bytes": 2324,
+    "sha256": "0ef42f2a3c250295af2cc72eaf08f9e0fcd1efc01b554730e5786c5b0680692b"
+  },
+  "src/inference.py": {
+    "bytes": 12103,
+    "sha256": "c38579a6a34288d86b833a1204467bdc43decd81618ee9a864c9a7dc3282cec1"
+  },
+  "src/metric.py": {
+    "bytes": 765,
+    "sha256": "a8c50081976cbfdab43aaca7b734332012fd8bc56aa876f410ea2de572b85e70"
+  },
+  "src/models/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/models/fingerprint_model.py": {
+    "bytes": 1250,
+    "sha256": "6b87f30c8563c11127ec8c1b42af982aac02f07251e8fd347d756df2ea7032df"
+  },
+  "src/spectra.py": {
+    "bytes": 2296,
+    "sha256": "1c517745eed6944aff2335445120f0178eb77f59f19a080f1fefb7539fb25ebd"
+  },
+  "src/validation.py": {
+    "bytes": 823,
+    "sha256": "346b70e5b697d463e68d96ca6f51c5825a48cda07f86f8120310fbe11677e52b"
+  },
+  "wheels/rdkit-2026.3.3-cp311-cp311-manylinux_2_28_x86_64.whl": {
+    "bytes": 37257559,
+    "sha256": "49daed64f54ca589590cf63c5ec4c43afb94301cdf4ca85fec270fcd675e2c4d"
+  },
+  "wheels/rdkit-2026.3.3-cp312-cp312-manylinux_2_28_x86_64.whl": {
+    "bytes": 37188323,
+    "sha256": "c69a40ad52a2489cf592d55b41f5f6fa482f028341c038f3ed7d6b46834d1d3d"
+  }
+}

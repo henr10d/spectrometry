@@ -1,0 +1,9 @@
+{
+  "base_rows": 274195,
+  "output_rows": 729597,
+  "external_added": 455402,
+  "seconds": 33.265650272369385,
+  "rdkit": "2026.03.3",
+  "output": "artifacts/candidates_extended.parquet",
+  "mass_index": "artifacts/candidates_extended.mass_index.npz"
+}

@@ -1,0 +1,12 @@
+{
+  "test_molecules": 400,
+  "average_candidates": 24.055,
+  "min_candidates": 2,
+  "max_candidates": 25,
+  "invalid_smiles": 0,
+  "duplicate_candidates": 0,
+  "template_ids_match_test": true,
+  "seconds": 31.130867958068848,
+  "output": "/home/filip/Desktop/kaggle_spektrometrie/submission.np_prior.csv",
+  "fallback_queries": 0
+}

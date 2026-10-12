@@ -1,0 +1,35 @@
+{
+  "queries": 64,
+  "excluded_structures": 8671,
+  "training_structures": 40000,
+  "max_remaining_train_similarity": 0.4,
+  "mean_remaining_train_similarity": 0.387976269915056,
+  "results": [
+    {
+      "experiment": "mass_closed_universe",
+      "validation_split": "novelty_0.4",
+      "MRR25": 0.42260625659063156,
+      "R1": 0.265625,
+      "R5": 0.625,
+      "R10": 0.78125,
+      "R25": 0.921875,
+      "candidate_oracle_recall": 1.0,
+      "training_time": 0,
+      "inference_time": 1.4583232402801514,
+      "notes": "n=64; excluded 8671 structures with Tanimoto>0.4 to any query; train=40000; candidate structures retained; fixed alpha20"
+    },
+    {
+      "experiment": "fingerprint_ridge_closed_universe",
+      "validation_split": "novelty_0.4",
+      "MRR25": 0.24492091126995302,
+      "R1": 0.09375,
+      "R5": 0.390625,
+      "R10": 0.65625,
+      "R25": 0.8125,
+      "candidate_oracle_recall": 1.0,
+      "training_time": 2.399054765701294,
+      "inference_time": 1.4584102630615234,
+      "notes": "n=64; excluded 8671 structures with Tanimoto>0.4 to any query; train=40000; candidate structures retained; fixed alpha20"
+    }
+  ]
+}

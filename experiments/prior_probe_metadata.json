@@ -1,0 +1,13 @@
+{
+  "rank_columns": [
+    "mass_only",
+    "annotation",
+    "named",
+    "log1p_records",
+    "annotation_plus_named",
+    "annotation_plus_0.5_log1p_records"
+  ],
+  "selected_column": 5,
+  "selection": "highest development MRR; stable_uniform(key, 42) < 0.5",
+  "warning": "Exploratory script printed both partitions. Not a pristine holdout."
+}

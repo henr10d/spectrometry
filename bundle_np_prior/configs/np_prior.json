@@ -1,0 +1,11 @@
+{
+  "seed": 2026,
+  "mass_ppm": 10,
+  "mass_floor_da": 0.002,
+  "bin_width": 0.1,
+  "aggregation": "mean",
+  "method": "np_prior",
+  "exact_match_gate": 0.999,
+  "record_weight": 0.5,
+  "candidates_file": "candidates_np_prior.parquet"
+}

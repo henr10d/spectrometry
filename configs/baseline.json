@@ -1,0 +1,10 @@
+{
+  "seed": 2026,
+  "mass_ppm": 10,
+  "mass_floor_da": 0.002,
+  "bin_width": 0.1,
+  "aggregation": "mean",
+  "method": "gated_mass",
+  "modified_shortlist": 100,
+  "exact_match_gate": 0.999
+}
