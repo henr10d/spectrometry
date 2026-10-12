@@ -1,0 +1,9 @@
+{
+  "ppm": 10.0,
+  "max_cuts": 2,
+  "max_bonds": 60,
+  "max_cut_sets": 2000,
+  "hydrogen_shifts": [-1, 0, 1],
+  "formula_max_nodes": 2000000,
+  "notes": "Experimental closed-shell formula and singly charged graph-cut hypotheses. Not promoted to baseline."
+}

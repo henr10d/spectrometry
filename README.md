@@ -1,5 +1,27 @@
 # CASMI 2026: inspected data and offline baseline
 
+## Current checkout audit (2026-10-12)
+
+See [DATA_ANALYSIS.md](DATA_ANALYSIS.md) for the current execution status. Historical
+results below are retained as provenance; this checkout initially lacked the candidate
+database, structure map, spectrum cache, and trained weights. The Windows Python
+environment is `.venv`. Run commands from the repository root with `$env:PYTHONPATH='.'`.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/preflight.py
+.\.venv\Scripts\python.exe scripts/analyze_data.py
+.\.venv\Scripts\python.exe scripts/inspect_current_data.py
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+Experimental phase-2 utilities are `src/formulas.py` and `src/fragmentation.py`.
+After preflight and tests pass, run `scripts/enumerate_fragments.py --rows 128`
+for a bounded pilot with cached graph cuts, ambiguous peak labels, and a coverage
+summary. These components have not been promoted to inference or shown to improve
+validation. Formula search rejects unsupported elemental/charge assumptions and
+fails explicitly when its node budget is exhausted. Fragment matching currently
+supports singly charged H-shift hypotheses, not a full ion-rearrangement simulator.
+
 ## Nová varianta po skóre 0,179
 
 `configs/np_prior.json` přidává řazení podle veřejných anotací a počtu záznamů COCONUT. Původní `pop` sloupec obsahoval pouze nuly. Nový postup, měření, oprava úniku validačních struktur do fingerprint modelu a omezení jsou v [notes/score_improvement.md](notes/score_improvement.md). Pro tuto variantu použijte **`bundle_np_prior/`** a aktualizovaný `notebooks/kaggle_submission.ipynb`. Na 246 NP strukturách bez jejich referenčních spekter vychází nová varianta na **0,553 MRR@25** oproti **0,180** původního ensemble po opravě trénovacího úniku. Lokální validace není záruka skóre na skrytém testu.

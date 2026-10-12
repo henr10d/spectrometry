@@ -1,0 +1,4 @@
+experiment,git_commit,config,validation_metric,notes
+current_data_audit,aee2355bf8aa8818cba94c7936c2416bf28944cc,none,,Full metadata and peak-array inspection completed; see notes/current_data_audit.json
+candidate_index_test,aee2355bf8aa8818cba94c7936c2416bf28944cc,none,,Passed independent retrieval-window and fallback test
+chemistry_phase2_tests,aee2355bf8aa8818cba94c7936c2416bf28944cc,configs/chemistry_pilot.json,,BLOCKED: Windows application control blocks RDKit rdCIPLabeler DLL; current changes uncommitted; no MRR measured

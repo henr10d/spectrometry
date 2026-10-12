@@ -1,0 +1,40 @@
+{
+  "numpy": {
+    "ok": true,
+    "version": "2.2.6"
+  },
+  "pandas": {
+    "ok": true,
+    "version": "2.3.3"
+  },
+  "pyarrow": {
+    "ok": true,
+    "version": "22.0.0"
+  },
+  "rdkit.Chem": {
+    "ok": false,
+    "error": "DLL load failed while importing rdCIPLabeler: Z\u00e1sada \u0159\u00edzen\u00ed aplikac\u00ed tento soubor zablokovala."
+  },
+  "torch": {
+    "ok": false,
+    "error": "No module named 'torch'"
+  },
+  "train.parquet": {
+    "ok": true
+  },
+  "test.parquet": {
+    "ok": true
+  },
+  "sample_submission.csv": {
+    "ok": true
+  },
+  "artifacts/candidates.parquet": {
+    "ok": false
+  },
+  "artifacts/structure_map.parquet": {
+    "ok": false
+  },
+  "artifacts/library_peaks.npy": {
+    "ok": false
+  }
+}
