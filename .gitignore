@@ -7,3 +7,20 @@ __pycache__/
 *.pyc
 submission*.csv
 external/coconut_csv_lite-10-2026.csv
+
+# datasets
+external/*.csv
+external/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+
+# environments
+.venv/
+venv/
+
+# model/checkpoint outputs
+*.pt
+*.pth
+*.ckpt
